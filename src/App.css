@@ -1,0 +1,93 @@
+* {
+  font-family: "Greycliff CF";
+}
+.image {
+  background-image: url("./favicons/Ellipse 55.png") !important;
+}
+
+.card {
+  border-radius: 12px;
+  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.2);
+}
+
+.Card a {
+  color: #62a83a !important;
+  font-size: 20px !important;
+  font-weight: 600 !important;
+  line-height: normal;
+}
+
+.show_more {
+  background-color: rgba(0, 61, 115, 1) !important;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.Heading_Para h2 {
+  color: #62a83a;
+  font-size: 56px;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 0 !important;
+}
+.Heading_Para p {
+  color: #000;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 0 !important;
+}
+
+.GoalsandAboutPara {
+  color: #000;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.about::after {
+  position: absolute;
+  content: "";
+  z-index: 1;
+  background-image: url("/src/favicons/markGoalsandAbout.png");
+  background-position: 100% 70%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 178px;
+  height: 178px;
+}
+.our_goals::after {
+  position: absolute;
+  content: "";
+  z-index: 1;
+  background-image: url("/src/favicons/markGoalsandAbout.png");
+  background-position: 100% 70%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 178px;
+  height: 178px;
+}
+
+.service_card img {
+  margin: 10px 15px;
+  width: 20% !important;
+}
+
+.service_card h5 {
+  color: #000;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.services {
+  min-height: 350px !important  ;
+}
+.services p {
+  color: #334155;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 150%; /* 22.5px */
+  letter-spacing: 0.15px;
+}

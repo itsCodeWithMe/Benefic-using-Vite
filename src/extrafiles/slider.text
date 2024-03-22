@@ -1,0 +1,78 @@
+<div
+      id="recipeCarousel"
+      className="carousel slide w-100"
+      data-ride="carousel"
+    >
+      <div className="carousel-inner w-100" role="listbox">
+  <div className="carousel-item active">
+    <div className="col-md-4">
+      <div className="card card-body">
+        <Card
+          image="{CardImage1}"
+          contentHeading="{Heading}"
+          contentPara="{Para}"
+        ></Card>
+      </div>
+    </div>
+  </div>
+  <div className="carousel-item ">
+    <div className="col-md-4">
+      <div className="card card-body">
+        <Card
+          image="{CardImage1}"
+          contentHeading="{Heading}"
+          contentPara="{Para}"
+        ></Card>
+      </div>
+    </div>
+  </div>
+  <div className="carousel-item ">
+    <div className="col-md-4">
+      <div className="card card-body">
+        <Card
+          image="{CardImage1}"
+          contentHeading="{Heading}"
+          contentPara="{Para}"
+        ></Card>
+      </div>
+    </div>
+  </div>
+  <div className="carousel-item ">
+    <div className="col-md-4">
+      <div className="card card-body">
+        <Card
+          image="{CardImage1}"
+          contentHeading="{Heading}"
+          contentPara="{Para}"
+        ></Card>
+      </div>
+    </div>
+  </div>
+
+  <a
+    className="carousel-control-prev w-auto"
+    href="#recipeCarousel"
+    role="button"
+    data-slide="prev"
+  >
+    <span
+      className="carousel-control-prev-icon bg-dark border border-dark rounded-circle"
+      aria-hidden="true"
+    ></span>
+    
+  </a>
+  <a
+    className="carousel-control-next w-auto"
+    href="#recipeCarousel"
+    role="button"
+    data-slide="next"
+  >
+    <span
+      className="carousel-control-next-icon bg-dark border border-dark rounded-circle"
+      aria-hidden="true"
+    ></span>
+    
+  </a>
+</div>
+
+    </div>
