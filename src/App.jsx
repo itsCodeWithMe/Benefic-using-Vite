@@ -15,6 +15,7 @@ const contentPara2 = "Consult our experts about your project free";
 const MainPara = `There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.`;
 const heading1 = "About";
 const heading2 = "Our Goals";
+
 function App() {
   return (
     <>

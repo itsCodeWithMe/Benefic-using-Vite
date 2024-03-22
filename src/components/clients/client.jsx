@@ -13,7 +13,7 @@ function Client() {
       <div className="container">
         <Heading_Para Heading={Heading} Para={Para}></Heading_Para>
 
-        <div className="row align-items-center">
+        <div className="row align-items-center my-5">
           <div className="col-md-3">
             <img className="w-100" src={Allcode} alt="" />
           </div>
